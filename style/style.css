@@ -27,7 +27,9 @@
   margin-right: 40px;
   /* ქრისტინას */
   /* ბევრი ვიწვალე თუ ცოტა ვიწვალე მაინც ვერ გავასწორე :( 
-    ესეც რეზოლუციის ბრალია ალბათ?! */
+    ესეც რეზოლუციის ბრალია ალბათ?!
+     ანუ margin-ებს რომ ვუთითებ ფაილის მიხედვით,
+      საერთოდ არ სწორდება ისე,როგორც საჭიროა!*/
 }
 .right-block {
   width: 801px;
@@ -56,4 +58,71 @@
   font-size: 22px;
   margin-top: 57px;
   margin-bottom: 84px;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 67px;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header-box {
+  width: 714px;
+  margin: 0 auto;
+  text-align: center;
+}
+.box1 {
+  width: 370px;
+  height: 451px;
+  background: #fbba77;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box2 {
+  background: #41eae3;
+}
+.box3 {
+  background: #69529f;
+}
+.box2_1 {
+  background: #4386d2;
+}
+.box2_2 {
+  background: #a5a2f6;
+}
+.box2_3 {
+  background: #ff8088;
+}
+.description1 {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-align: center;
+  width: 328px;
+  margin: 11px 0px;
+  font-size: 16px;
+}
+.website {
+  margin-top: 55px;
+  color: #fff;
+}
+.button1 {
+  width: 131px;
+  height: 45px;
+  border-radius: 23px;
+  margin-top: 11px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
 }
