@@ -16,3 +16,44 @@
   margin-left: 132px;
   margin-top: 77px;
 }
+.blockwrapper {
+  display: flex;
+  margin-top: 200px;
+  justify-content: space-evenly;
+}
+.left-block {
+  /* width: 616px; */
+  margin-left: 70px;
+  margin-right: 40px;
+  /* ქრისტინას */
+  /* ბევრი ვიწვალე თუ ცოტა ვიწვალე მაინც ვერ გავასწორე :( 
+    ესეც რეზოლუციის ბრალია ალბათ?! */
+}
+.right-block {
+  width: 801px;
+  height: 500px;
+  /* margin-left: 80px; */
+}
+.button {
+  width: 264px;
+  height: 77px;
+  border-radius: 38px;
+  background: blue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.wave {
+  font-size: 24px;
+  color: #fff;
+}
+.header1 {
+  font-size: 78px;
+  font-family: "Lato", sans-serif;
+}
+.header3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  margin-top: 57px;
+  margin-bottom: 84px;
+}
